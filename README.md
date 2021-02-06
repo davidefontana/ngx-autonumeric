@@ -1,5 +1,7 @@
 # NgxAutonumeric
 
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=davidefontana_ngx-autonumeric)](https://sonarcloud.io/dashboard?id=davidefontana_ngx-autonumeric)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
 ## Development server
