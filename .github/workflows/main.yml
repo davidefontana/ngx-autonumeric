@@ -36,8 +36,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run tests with coverage
         run: npm run coverage
-      - name: Send coverage reports
-        env: 
-           CODECOV_TOKEN: "a27c29ae-fe92-42e8-941b-d65124e73e47"
-         
-        run: bash <(curl -s https://codecov.io/bash)
+      
+      - name: Codecov
+        uses: codecov/codecov-action@v1.2.1
